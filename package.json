@@ -1,0 +1,17 @@
+{
+  "name": "http-error-message-assets",
+  "version": "0.0.0",
+  "description": "http-error-message assets",
+  "main": "vlaanderen-font.js",
+  "scripts": {
+    "release": "np"
+  },
+  "author": "Sander Kleykens",
+  "license": "ISC",
+  "devDependencies": {
+    "np": "3.0.4"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
+  }
+}
