@@ -2,12 +2,16 @@
   "name": "http-error-message-assets",
   "version": "0.0.0",
   "description": "http-error-message assets",
-  "main": "vlaanderen-font.js",
-  "scripts": {
-    "release": "np"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milieuinfo/http-error-message-assets.git"
   },
-  "author": "Sander Kleykens",
-  "license": "ISC",
+  "scripts": {
+    "release": "np",
+    "release:prepare": "",
+    "release:testless": "np --yolo"
+  },
+  "author": "DIDM",
   "devDependencies": {
     "np": "3.0.4"
   },
